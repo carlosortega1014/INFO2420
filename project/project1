@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Project 1</title>
+</head>
 
+<body>
+
+<h1>Website Critiques</h1>
+
+<hr>
+
+<h2>Questions:</h2>
+
+<ol>
+    <li>What was your first impression of this site?</li>
+    <li>How does this site organize the flow of information? (Do they have links on the left and text on the right? Some other scheme? No scheme?)</li>
+    <li>Does the site structure make sense or does it confuse you? Why?</li>
+    <li>Does the site graphics/layout/multimedia enhance the site or detract from it? Why?</li>
+    <li>How long did it take for the home page to load? Was the load time reasonable?</li>
+    <li>Was the text color and size readable? If a background color or image was used, did it enhance or detract from the site?</li>
+    <li>Did the site have a navigation bar or other navigation tool? Was the navigation well done?</li>
+    <li>Did the site have a color scheme or look and feel that was repeated on all the pages?</li>
+    <li>How does the site respond to smaller window sizes (responsive design)?</li>
+    <li>What does this site offer that was unusual or very well done?</li>
+</ol>
+
+<h2>Website 1 Critique - Utah.com</h2>
+
+<ol>
+    <li>My first impression was that it looked simple but also a little confusing due to how many links showed on the bottom</li>
+    <li>The site is organzied by having links on the left, right and the top to navigate the website to find what you are looking for</li>
+    <li>It makes sense in certain aspects like the link on the left to quickly look up the top destinations but i feel like it is cluttered when you scroll down and see many different link with photos which causes you not to read any of them</li>
+    <li>The graphics of the homepage is appealing but looking straight down, makes it less appealing because it has many different color schemes for the graphics.</li>
+    <li>It did not take too long but the graphic for the homepage took a while to load compared to the links and other aspects of the website</li>
+    <li>Yes the text size was readable. The text was in front of a background which made it easier to read</li>
+    <li>Yes it had a navigation bar which helped me look at exactly what i need. It locates exactly what destination you are thinking of visiting</li>
+    <li>The color scheme was white, blue links, and black text and it stayed consistant through the entire site</li>
+    <li>The response what great, it allowed me to adjust it and still see all the content</li>
+    <li>I think the navigation bar was well done because it shows exactly what you are wanting to find if you are traveling to utah for the first time or to see different events</li>
+</ol>
+
+<hr>
+
+<h2>Website 2 Critique - Pitchfork.com</h2>
+
+<ol>
+    <li>My first impression was "<b>WOW</b>, there are a lot of ads" Is this a promotional website or a news website</li>
+    <li>They show photos and a title to all their articles but when you scroll down you start seeing differnt topics about music but they mostly use pictures and bold titles</li>
+    <li>I think that it does kind of work for them because they are trying to enphasize the articles and music topics it kind of reminds me of th New York Times</li>
+    <li>I believe that it works for it because it allows the reader to see exactly who the artist is and can make the reader click on it if they know who it is</li>
+    <li>It took a while for the website to load. The title worked but the smaller pictures and graphics took a little while to load</li>
+    <li>Yes, the text was readable because it is white with a black background which made it easier to understand</li>
+    <li>The navigation bar was well down because it gives links to topics you are looking for about music and news articles</li>
+    <li>Yes the shceme was consitent throughout the entire site but when you are looking at the features it shows a different navigation bar. </li>
+    <li>It responded well but not as great as <a href="https://utah.com/" style="color: #FF0000;">Utah.com</a> </li>
+    <li>The site offers a great design when scrolling down the page. It made it unique and engaging.</li>
+</ol>
+
+<hr>
+
+<h2>Website 3 Critique - Jamilin.com</h2>
+
+<ol>
+    <li>My first impression was "<i><b>What is going on and who is this</b></i>" there is a lot of things going on.</li>
+    <li>All the information is cramped together and uses many different color scheme</li>
+    <li>It confused me because the information was scattered across the website.</li>
+    <li>The graphics did not work well with the website because it is the same photo done across many different spots. It does not provide me with any information other than she is the owner of this buisness</li>
+    <li>The website is the fastest compared to the other websites due to being less complicated</li>
+    <li>The text color was readable but there was quite alot of text with the title that made it confusing which made it hard to know what the titles was. </li>
+    <li>It did have a navigation bar but it was probably the worst one i have used in a long time. It takes me to totally different pages which are not from the original website which made it harder to navigate back to the orignal page if you closed it </li>
+    <li>I would say the color scheme was everywhere. There were so many different colors when going to different parts of the website. It was never consitent to one scheme</li>
+    <li>It acutally did work when it comes to the home page but when you are in the other link, it did horribly. For example if you click the galacticspirit, it made me want to go back to a wider view or switch to a tablet</li>
+    <li>I think having different links that take you to totally different websites was unique but in a way that did not work. It made it confusing on what exactly she is selling and I found myself not caring about the other websites and did not add to the main website</li>
+</ol>
+
+</blockquote>
+
+</body>
+</html>
