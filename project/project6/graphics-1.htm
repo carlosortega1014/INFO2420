@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rent a Pet - Graphics</title>
+
+<style type="text/css">
+    #thumbs, #image {
+        width: 900px;
+        text-align: center;
+        margin: 0 auto;
+        color: #000;
+    }
+
+    #thumbs {
+        margin-top: 10px;
+    }
+
+    #thumbs img {
+        border: solid 1px #000;
+        margin: 5px;
+    }
+
+    #image {
+        height: 500px;
+    }
+
+    .instructions {
+        font-style: italic;
+    }
+</style>
+
+<script type="text/javascript">
+    var PrintButton1 = new Image();
+    var PrintButton2 = new Image();
+    var logo1 = new Image();
+    var logo2 = new Image();
+
+    if (document.images) {
+        PrintButton1.src = "images/print1.jpg";
+        PrintButton2.src = "images/print2.jpg";
+        logo1.src = "images/logo1.png";
+        logo2.src = "images/logo2.png";
+    }
+
+    var imgArray = [
+        "Image1Lg.jpg",
+        "Image2Lg.jpg",
+        "Image3Lg.jpg",
+        "Image4Lg.jpg"
+    ];
+
+    var titleArray = [
+        "Dog and Cat",
+        "Parrot and Dog",
+        "Aussie Competing",
+        "Angry Cat"
+    ];
+
+    var imgPath = "images/fullsize/";
+
+    function swapImage(imgID) {
+        var theImage = document.getElementById("theImage");
+        var textDiv = document.getElementById("bottomText");
+
+        theImage.src = imgPath + imgArray[imgID];
+        textDiv.innerHTML = titleArray[imgID];
+    }
+
+    function preloadImages() {
+        for (var i = 0; i < imgArray.length; i++) {
+            var tmpImg = new Image();
+            tmpImg.src = imgPath + imgArray[i];
+        }
+    }
+</script>
+</head>
+
+<body onload="preloadImages()">
+
+<div align="center">
+
+    <div>
+        <a href="#"
+           onmouseover="document.PrintButton.src=PrintButton2.src;"
+           onmouseout="document.PrintButton.src=PrintButton1.src;">
+            <img src="images/print1.jpg"
+                 width="250"
+                 height="50"
+                 name="PrintButton"
+                 alt="Print Page Button"
+                 style="border:none;">
+        </a>
+    </div>
+
+    <div id="logo">
+        <a href="logo.html"
+           onmouseover="document.logo.src=logo2.src;"
+           onmouseout="document.logo.src=logo1.src;">
+            <img src="images/logo1.png"
+                 width="133"
+                 height="126"
+                 name="logo"
+                 alt="logo"
+                 style="border:none;">
+        </a>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="thumbs">
+        <img src="images/thumbnails/Image1Sm.jpg" alt="Dog and Cat" onmouseover="swapImage(0);">
+        <img src="images/thumbnails/Image2Sm.jpg" alt="Parrot and Dog" onmouseover="swapImage(1);">
+        <img src="images/thumbnails/Image3Sm.jpg" alt="Aussie Competing" onmouseover="swapImage(2);">
+        <img src="images/thumbnails/Image4Sm.jpg" alt="Angry Cat" onmouseover="swapImage(3);">
+    </div>
+
+    <div id="image">
+        <img id="theImage" src="images/fullsize/Image1Lg.jpg" alt="Dog and Cat">
+        <h3 id="bottomText">Dog and Cat</h3>
+    </div>
+
+    <img src="images/2colback.jpg" alt="background image">
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+</div>
+
+<p>
+    <a href="https://validator.w3.org/check?uri=referer">
+        <img src="https://www.w3.org/Icons/valid-xhtml10"
+             alt="Valid XHTML 1.0 Transitional"
+             height="31"
+             width="88">
+    </a>
+</p>
+
+</body>
+</html>
