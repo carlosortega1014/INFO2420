@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8f1f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+header {
+    width: 900px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+#logoBox {
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+#logoBox img {
+    width: 120px;
+    height: auto;
+    border: none;
+}
+
+#bannerBox {
+    float: left;
+    width: 450px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#bannerBox img {
+    max-width: 125%;
+    height: auto;
+}
+
+nav {
+    float: right;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    display: block;
+    width: px;
+    margin: 8px auto;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #3d5a80;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #98c1d9;
+    color: #000000;
+}
+
+section {
+    width: 900px;
+    background-image: url("images/2colback.jpg");
+    background-repeat: repeat-y;
+    padding: 20px 0;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 20px;
+}
+
+article h1,
+article h2,
+article h3 {
+    text-align: center;
+}
+
+article p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+#thumbs {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#thumbs img {
+    border: 1px solid #000000;
+    margin: 5px;
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+}
+
+#image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#image img {
+    max-width: 500px;
+    height: auto;
+}
+
+#tributeBox {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#tributeBox img {
+    float: left;
+    width: 180px;
+    height: auto;
+    margin-right: 15px;
+}
+
+footer {
+    width: 900px;
+    background-color: #7aa6c2;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}

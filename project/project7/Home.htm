@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rent A Pet - Home</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <script type="text/javascript" src="myscripts.js"></script>
+</head>
+
+<body onload="preloadImages()">
+
+<div id="container">
+
+    <header>
+        <div id="logoBox">
+            <a href="Home.html"
+               onmouseover="document.logo.src=logo2.src;"
+               onmouseout="document.logo.src=logo1.src;">
+                <img src="images/logo1.png"
+                     name="logo"
+                     id="logo"
+                     alt="Rent A Pet logo">
+            </a>
+        </div>
+
+        <div id="bannerBox">
+            <img src="images/banner.png" alt="Rent A Pet banner">
+        </div>
+
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Tributes.html">Tributes</a>
+            <a href="Survey.html">Survey</a>
+            <a href="Favorites.html">Favorites</a>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h1>Welcome to Rent A Pet</h1>
+
+            <p>
+                Welcome to Rent A Pet, where animal lovers can spend time with friendly pets
+                and learn about taking care of an animal. We allow for the customer to rent a pet because
+                we believe that having a pet is the best thing ever.
+            </p>
+
+            <p>
+                Here at rent a pet we allow you to rent any kind of pet that suites your needs
+                and if you do not know what to pick, out employees will pick the best one for you!
+            </p>
+
+            <h2>Pet Gallery</h2>
+
+            <div id="thumbs">
+                <img src="images/thumbnails/Image1Sm.jpg" alt="Dog and cat" onmouseover="swapImage(0)">
+                <img src="images/thumbnails/Image2Sm.jpg" alt="Parrot and dog" onmouseover="swapImage(1)">
+                <img src="images/thumbnails/Image3Sm.jpg" alt="Aussie competing" onmouseover="swapImage(2)">
+                <img src="images/thumbnails/Image4Sm.jpg" alt="Angry cat" onmouseover="swapImage(3)">
+            </div>
+
+            <div id="image">
+                <img id="theImage" src="images/fullsize/Image1Lg.jpg" alt="Dog and cat">
+                <h3 id="bottomText">Dog and Cat</h3>
+            </div>
+
+            <h2>Mini Tribute</h2>
+
+            <div id="tributeBox">
+                <img src="images/Image1.jpg" alt="Featured pet tribute image">
+                <p>
+                    One of our favorite pets is a loyal and loving dog that brings energy and
+                    joy everywhere it goes. Pets like this remind us how important companionship
+                    can be in our lives. <strong>more &gt;&gt;</strong>
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>
+            Webmaster:
+            <a href="mailto:yourname@email.com">carlos.ort1014@email.com</a>
+        </p>
+        <p>This web site has been created solely for educational purposes.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
